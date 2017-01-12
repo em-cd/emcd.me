@@ -31,7 +31,7 @@ class App extends React.Component {
 							
 					</Pane>
 
-					<Pane label="projects" emoji="👍">
+					<Pane label="projects">
 
 						<Project
 							title="jakewarren.org"
