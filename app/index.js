@@ -84,6 +84,7 @@ class App extends React.Component {
 							title="emcd.me"
 							description="design & development"
 							href="http://emcd.me"
+							github="http://github.com/em-cd/emcd.me"
 							imageUrl="../assets/emcd.png"
 							imageClass="desktop"
 						>

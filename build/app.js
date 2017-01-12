@@ -63,7 +63,7 @@
 /******/ 	}
 
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "07ebb6d5990496d09beb"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "4a455feb1a4dc1f56e94"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 
@@ -793,6 +793,7 @@
 									title: 'emcd.me',
 									description: 'design & development',
 									href: 'http://emcd.me',
+									github: 'http://github.com/em-cd/emcd.me',
 									imageUrl: '../assets/emcd.png',
 									imageClass: 'desktop'
 								},
