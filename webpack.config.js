@@ -16,7 +16,8 @@ module.exports = {
 
   output: {
     path: PATHS.build,
-    filename: '[name].js'
+    filename: '[name].js',
+    publicPath: '/build/' // tell webpack-dev-server where to serve the bundle
   },
 
   resolve: {
