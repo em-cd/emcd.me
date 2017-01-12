@@ -21,7 +21,7 @@ class App extends React.Component {
 					<Pane label="about">
 							<div className="intro">
 								<h1>hey! i'm lizzie, a front-end web developer from the uk currently based in berlin, germany</h1>
-								<p>you can check out my CSS animation experiments over on <a href="https://github.com/em-cd">codepen</a>, and see some of my source code on <a href="https://github.com/em-cd">github</a></p>
+								<p>you can check out my CSS animation experiments over on <a href="https://codepen.io/em-cd">codepen</a>, and see some of my source code on <a href="https://github.com/em-cd">github</a></p>
 								<p>i'm currently available for freelance work. feel free to reach me at <a href="https://twitter.com/emc_dav">@emc_dav</a> or <a href="mailto:lizzie.cullendavison@gmail.com">lizzie.cullendavison@gmail.com</a></p>
 							</div>
 							<div className="skills">
