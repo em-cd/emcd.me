@@ -34,6 +34,17 @@ class App extends React.Component {
 					<Pane label="projects">
 
 						<Project
+							title="brace.club"
+							description="development"
+							href="http://brace.club"
+							imageUrl="../assets/braceclub.png"
+							imageClass="desktop"
+						>
+							<p>website for productions startup BRACE CLUB. the site uses angular in the front end with wordpress in the back end, using custom endpoints for the wp rest api to fetch the data.</p>
+							<p className="tech">angular, wordpress, WP REST API, jquery</p>
+						</Project>
+
+						<Project
 							title="jakewarren.org"
 							description="design & development"
 							href="http://jakewarren.org"
@@ -42,17 +53,6 @@ class App extends React.Component {
 						>
 							<p>website for journalist/producer jake warren. fully responsive, custom wordpress theme with integrated embedding for different video hosting platforms.</p>
 							<p className="tech">html5, css3, javascript, jquery, wordpress</p>
-						</Project>
-
-						<Project
-							title="brace.club"
-							description="development"
-							href="http://brace.club"
-							imageUrl="../assets/braceclub.png"
-							imageClass="desktop"
-						>
-							<p>website for productions startup BRACE CLUB. the site uses angular for the front end with wordpress in the back end, which allows for a smooth experience when viewing the content.</p>
-							<p className="tech">angular, wordpress, WP REST API, jquery</p>
 						</Project>
 
 						<Project
@@ -69,18 +69,6 @@ class App extends React.Component {
 						</Project>
 
 						<Project
-							title="ducsiegenthaler.ch"
-							description="design & development"
-							href="http://ducsiegenthaler.ch"
-							imageUrl="../assets/ducsiegenthaler.png"
-							imageClass="desktop"
-						>
-							<p>temporarily unavailable :'(</p>
-							<p>minimalist website for swiss fashion student duc siegenthaler. custom wordpress theme, responsive when viewed on desktop or mobile.</p>
-							<p className="tech">html5, css, javascript, jquery, wordpress</p>
-						</Project>
-
-						<Project
 							title="emcd.me"
 							description="design & development"
 							href="http://emcd.me"
@@ -88,10 +76,21 @@ class App extends React.Component {
 							imageUrl="../assets/emcd.png"
 							imageClass="desktop"
 						>
-							<p>personal website. experimental site created to learn react and sass</p>
-							<p className="tech">react, sass</p>
+							<p>my personal website. experimental site created using react, with sass generating the css. </p>
+							<p className="tech">react, sass, webpack</p>
 						</Project>
-
+			
+						<Project
+							title="ducsiegenthaler.ch"
+							description="design & development"
+							href="http://ducsiegenthaler.ch"
+							imageUrl="../assets/duc-project.png"
+							imageClass="desktop"
+						>
+							<p>temporarily unavailable :'(</p>
+							<p>minimalist website for swiss fashion student duc siegenthaler. custom wordpress theme, responsive when viewed on desktop or mobile.</p>
+							<p className="tech">html5, css, javascript, jquery, wordpress</p>
+						</Project>
 
 					</Pane>
 

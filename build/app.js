@@ -63,7 +63,7 @@
 /******/ 	}
 
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "4a455feb1a4dc1f56e94"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "44f923225cb1abd1c3ba"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 
@@ -698,6 +698,26 @@
 							_react2.default.createElement(
 								_Project2.default,
 								{
+									title: 'brace.club',
+									description: 'development',
+									href: 'http://brace.club',
+									imageUrl: '../assets/braceclub.png',
+									imageClass: 'desktop'
+								},
+								_react2.default.createElement(
+									'p',
+									null,
+									'website for productions startup BRACE CLUB. the site uses angular in the front end with wordpress in the back end, using custom endpoints for the wp rest api to fetch the data.'
+								),
+								_react2.default.createElement(
+									'p',
+									{ className: 'tech' },
+									'angular, wordpress, WP REST API, jquery'
+								)
+							),
+							_react2.default.createElement(
+								_Project2.default,
+								{
 									title: 'jakewarren.org',
 									description: 'design & development',
 									href: 'http://jakewarren.org',
@@ -713,26 +733,6 @@
 									'p',
 									{ className: 'tech' },
 									'html5, css3, javascript, jquery, wordpress'
-								)
-							),
-							_react2.default.createElement(
-								_Project2.default,
-								{
-									title: 'brace.club',
-									description: 'development',
-									href: 'http://brace.club',
-									imageUrl: '../assets/braceclub.png',
-									imageClass: 'desktop'
-								},
-								_react2.default.createElement(
-									'p',
-									null,
-									'website for productions startup BRACE CLUB. the site uses angular for the front end with wordpress in the back end, which allows for a smooth experience when viewing the content.'
-								),
-								_react2.default.createElement(
-									'p',
-									{ className: 'tech' },
-									'angular, wordpress, WP REST API, jquery'
 								)
 							),
 							_react2.default.createElement(
@@ -765,10 +765,31 @@
 							_react2.default.createElement(
 								_Project2.default,
 								{
+									title: 'emcd.me',
+									description: 'design & development',
+									href: 'http://emcd.me',
+									github: 'http://github.com/em-cd/emcd.me',
+									imageUrl: '../assets/emcd.png',
+									imageClass: 'desktop'
+								},
+								_react2.default.createElement(
+									'p',
+									null,
+									'my personal website. experimental site created using react, with sass generating the css. '
+								),
+								_react2.default.createElement(
+									'p',
+									{ className: 'tech' },
+									'react, sass, webpack'
+								)
+							),
+							_react2.default.createElement(
+								_Project2.default,
+								{
 									title: 'ducsiegenthaler.ch',
 									description: 'design & development',
 									href: 'http://ducsiegenthaler.ch',
-									imageUrl: '../assets/ducsiegenthaler.png',
+									imageUrl: '../assets/duc-project.png',
 									imageClass: 'desktop'
 								},
 								_react2.default.createElement(
@@ -785,27 +806,6 @@
 									'p',
 									{ className: 'tech' },
 									'html5, css, javascript, jquery, wordpress'
-								)
-							),
-							_react2.default.createElement(
-								_Project2.default,
-								{
-									title: 'emcd.me',
-									description: 'design & development',
-									href: 'http://emcd.me',
-									github: 'http://github.com/em-cd/emcd.me',
-									imageUrl: '../assets/emcd.png',
-									imageClass: 'desktop'
-								},
-								_react2.default.createElement(
-									'p',
-									null,
-									'personal website. experimental site created to learn react and sass'
-								),
-								_react2.default.createElement(
-									'p',
-									{ className: 'tech' },
-									'react, sass'
 								)
 							)
 						)
