@@ -63,7 +63,7 @@
 /******/ 	}
 
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "614c9bd6c11ca41a6624"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "07ebb6d5990496d09beb"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 
@@ -799,7 +799,7 @@
 								_react2.default.createElement(
 									'p',
 									null,
-									'personal website. experimental site created to learn react and sass, & learnt to use webpack along the way \uD83D\uDC4C'
+									'personal website. experimental site created to learn react and sass'
 								),
 								_react2.default.createElement(
 									'p',

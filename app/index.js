@@ -87,7 +87,7 @@ class App extends React.Component {
 							imageUrl="../assets/emcd.png"
 							imageClass="desktop"
 						>
-							<p>personal website. experimental site created to learn react and sass, & learnt to use webpack along the way 👌</p>
+							<p>personal website. experimental site created to learn react and sass</p>
 							<p className="tech">react, sass</p>
 						</Project>
 
