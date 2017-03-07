@@ -37,7 +37,7 @@ class App extends React.Component {
 							title="brace.club"
 							description="development"
 							href="http://brace.club"
-							imageUrl="../assets/braceclub.png"
+							imageUrl="../assets/braceclub.jpg"
 							imageClass="desktop"
 						>
 							<p>website for productions startup BRACE CLUB. the site uses angular in the front end with wordpress in the back end, using custom endpoints for the wp rest api to fetch the data.</p>
@@ -48,7 +48,7 @@ class App extends React.Component {
 							title="jakewarren.org"
 							description="design & development"
 							href="http://jakewarren.org"
-							imageUrl="../assets/jakewarren.png"
+							imageUrl="../assets/jakewarren.jpg"
 							imageClass="desktop"
 						>
 							<p>website for journalist/producer jake warren. fully responsive, custom wordpress theme with integrated embedding for different video hosting platforms.</p>
@@ -73,7 +73,7 @@ class App extends React.Component {
 							description="design & development"
 							href="http://emcd.me"
 							github="http://github.com/em-cd/emcd.me"
-							imageUrl="../assets/emcd.png"
+							imageUrl="../assets/emcd.jpg"
 							imageClass="desktop"
 						>
 							<p>my personal website. experimental site created using react, with sass generating the css. </p>
@@ -84,7 +84,7 @@ class App extends React.Component {
 							title="ducsiegenthaler.ch"
 							description="design & development"
 							href="http://ducsiegenthaler.ch"
-							imageUrl="../assets/duc-project.png"
+							imageUrl="../assets/duc-project.jpg"
 							imageClass="desktop"
 						>
 							<p>temporarily unavailable :'(</p>

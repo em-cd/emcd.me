@@ -21,7 +21,7 @@ class Project extends React.Component {
 			<div className={"project" + (this.state.imgLoaded ? " image-loaded" : " image-loading")}>
 				
 				<div className="preview">
-					<img src={this.props.imageUrl} onLoad={this.handleImgLoaded.bind(this)} className={this.props.imageClass} />
+					<img src={this.props.imageUrl} onLoad={this.handleImgLoaded.bind(this)} className={this.props.imageClass} alt={this.props.title + " preview"} />
 				</div>
 
 				<div className="content">

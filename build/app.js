@@ -63,7 +63,7 @@
 /******/ 	}
 
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "44f923225cb1abd1c3ba"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "cf5798f70e499a24bd7b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 
@@ -701,7 +701,7 @@
 									title: 'brace.club',
 									description: 'development',
 									href: 'http://brace.club',
-									imageUrl: '../assets/braceclub.png',
+									imageUrl: '../assets/braceclub.jpg',
 									imageClass: 'desktop'
 								},
 								_react2.default.createElement(
@@ -721,7 +721,7 @@
 									title: 'jakewarren.org',
 									description: 'design & development',
 									href: 'http://jakewarren.org',
-									imageUrl: '../assets/jakewarren.png',
+									imageUrl: '../assets/jakewarren.jpg',
 									imageClass: 'desktop'
 								},
 								_react2.default.createElement(
@@ -769,7 +769,7 @@
 									description: 'design & development',
 									href: 'http://emcd.me',
 									github: 'http://github.com/em-cd/emcd.me',
-									imageUrl: '../assets/emcd.png',
+									imageUrl: '../assets/emcd.jpg',
 									imageClass: 'desktop'
 								},
 								_react2.default.createElement(
@@ -789,7 +789,7 @@
 									title: 'ducsiegenthaler.ch',
 									description: 'design & development',
 									href: 'http://ducsiegenthaler.ch',
-									imageUrl: '../assets/duc-project.png',
+									imageUrl: '../assets/duc-project.jpg',
 									imageClass: 'desktop'
 								},
 								_react2.default.createElement(
@@ -22375,7 +22375,7 @@
 					_react2.default.createElement(
 						"div",
 						{ className: "preview" },
-						_react2.default.createElement("img", { src: this.props.imageUrl, onLoad: this.handleImgLoaded.bind(this), className: this.props.imageClass })
+						_react2.default.createElement("img", { src: this.props.imageUrl, onLoad: this.handleImgLoaded.bind(this), className: this.props.imageClass, alt: this.props.title + " preview" })
 					),
 					_react2.default.createElement(
 						"div",
