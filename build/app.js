@@ -63,7 +63,7 @@
 /******/ 	}
 
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "cf5798f70e499a24bd7b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "7db3f544e46f6542ac3c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 
@@ -650,7 +650,7 @@
 								_react2.default.createElement(
 									'h1',
 									null,
-									'hey! i\'m lizzie, a front-end web developer from the uk currently based in berlin, germany'
+									'hey! i\'m lizzie, a front-end web developer based in london, uk'
 								),
 								_react2.default.createElement(
 									'p',
@@ -671,7 +671,7 @@
 								_react2.default.createElement(
 									'p',
 									null,
-									'i\'m currently available for freelance work. feel free to reach me at ',
+									'i\'m currently available for freelance or full-time work. feel free to reach me at ',
 									_react2.default.createElement(
 										'a',
 										{ href: 'https://twitter.com/emc_dav' },
@@ -698,16 +698,35 @@
 							_react2.default.createElement(
 								_Project2.default,
 								{
-									title: 'brace.club',
+									title: 'berlin feminist film week',
+									description: 'design & development',
+									href: 'http://berlinfeministfilmweek.com',
+									imageUrl: '../assets/bffw-program.jpg',
+									imageClass: 'desktop'
+								},
+								_react2.default.createElement(
+									'p',
+									null,
+									'website for the fourth edition of the feminist film festival in berlin. browse through the program, past events, or have a look through an extensive database of feminist films.'
+								),
+								_react2.default.createElement(
+									'p',
+									{ className: 'tech' },
+									'wordpress, sass, jquery, ajax'
+								)
+							),
+							_react2.default.createElement(
+								_Project2.default,
+								{
+									title: 'BRACE CLUB',
 									description: 'development',
-									href: 'http://brace.club',
 									imageUrl: '../assets/braceclub.jpg',
 									imageClass: 'desktop'
 								},
 								_react2.default.createElement(
 									'p',
 									null,
-									'website for productions startup BRACE CLUB. the site uses angular in the front end with wordpress in the back end, using custom endpoints for the wp rest api to fetch the data.'
+									'website for productions startup BRACE CLUB, using angular in the front end, wordpress in the back. the site used custom endpoints to fetch the data with the wp rest api, with smooth animated transitions between pages.'
 								),
 								_react2.default.createElement(
 									'p',
@@ -727,7 +746,7 @@
 								_react2.default.createElement(
 									'p',
 									null,
-									'website for journalist/producer jake warren. fully responsive, custom wordpress theme with integrated embedding for different video hosting platforms.'
+									'website for journalist/producer jake warren. fully responsive, custom wordpress theme with integrated embedding for multiple video hosting platforms.'
 								),
 								_react2.default.createElement(
 									'p',
@@ -748,7 +767,7 @@
 								_react2.default.createElement(
 									'p',
 									null,
-									'a web app that recommends bars in leeds for your tinder dates. created as part of the ',
+									'a web app that recommends bars in leeds to suit your preferences. created as part of the ',
 									_react2.default.createElement(
 										'a',
 										{ href: 'http://www.codefirstgirls.org.uk/' },
@@ -775,7 +794,7 @@
 								_react2.default.createElement(
 									'p',
 									null,
-									'my personal website. experimental site created using react, with sass generating the css. '
+									'my personal website. experimental site created using react and sass.'
 								),
 								_react2.default.createElement(
 									'p',
@@ -795,12 +814,7 @@
 								_react2.default.createElement(
 									'p',
 									null,
-									'temporarily unavailable :\'('
-								),
-								_react2.default.createElement(
-									'p',
-									null,
-									'minimalist website for swiss fashion student duc siegenthaler. custom wordpress theme, responsive when viewed on desktop or mobile.'
+									'minimalist website for swiss fashion student duc siegenthaler. custom built wordpress theme, responsive when viewed on desktop or mobile.'
 								),
 								_react2.default.createElement(
 									'p',
@@ -22385,11 +22399,11 @@
 							{ className: "project-title" },
 							this.props.title
 						),
-						_react2.default.createElement(
+						this.props.href ? _react2.default.createElement(
 							"a",
 							{ href: this.props.href },
 							"www"
-						),
+						) : null,
 						this.props.github ? _react2.default.createElement(
 							"span",
 							null,

@@ -26,7 +26,7 @@ class Project extends React.Component {
 
 				<div className="content">
 					<h2 className="project-title">{this.props.title}</h2>
-						<a href={this.props.href}>www</a>
+						{this.props.href ? <a href={this.props.href}>www</a> : null}
 						{this.props.github ? <span> • <a href={this.props.github}>code</a></span> : null}
 					<h3 className="project-subheader">{this.props.description}</h3>
 					{this.props.children}
